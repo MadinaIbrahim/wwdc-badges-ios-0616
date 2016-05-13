@@ -23,11 +23,12 @@
         
     }
     
+    
     NSArray *firstname = @[@"Anita", @"Alan", @"Ada", @"Aaron", @"Alan", @"Michael", @"Grace", @"Charles"];
     NSArray *lastname = @[@"Bork", @"Kay", @"Lovelace", @"Swartz", @"Turin", @"Faraday", @"Hopper", @"Babbage"];
     
-    for (NSUInteger i = 0; 1 < 8; i++) {
-        NSLog(@"Hello, my name is %@%@.", firstname[i], lastname[i]);
+    for (NSUInteger i = 0; i < [firstname count]; i++) {
+        NSLog(@"Hello, my name is %@ %@.", firstname[i], lastname[i]);
         
     }
 
@@ -42,7 +43,7 @@
      but... [test count] is 4
      
      */
-    
+    // if your program crashes and goes to main.m, go the breakpoints tab and click add exception breakpoint. if you run the program again, it will crash and show you the line that's causing the crash
     
     
     
